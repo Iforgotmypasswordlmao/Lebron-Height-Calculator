@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Lebron Height Calculator</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="bodyContainer">
+            <div class="canvasContainer">
+                <canvas id="lebron" height="600" width="300"></canvas>
+                <canvas id="you" height="600" width="300"></canvas>
+            </div>
+            <div class="bottomContainer">
+                <div class="inputContainer">
+                    Enter height (metres):&nbsp;
+                    <input type="number" min="0" value="1.80" id="heightInput" step="0.01">
+                </div>
+                <div class="inputContainer">
+                    You are &nbsp;<span id="ratio">0.87</span>&nbsp; Lebron units tall. Whilst Lebron is &nbsp;<span id="inverse">1.15</span>&nbsp; you units tall.
+                </div>
+            </div>
+        </div>
+        <script type="text/javascript" src="script.js"></script>
+    </body>
+</html>
